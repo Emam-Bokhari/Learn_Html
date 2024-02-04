@@ -1,0 +1,91 @@
+<!-- 
+    # table
+    * thead,tbody,tfoot,tr,th,td
+-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Learn table
+    </title>
+    <style>
+        table{
+            border:solid 2px black;
+            border-spacing:5px;
+            width: 400px;
+        }
+        td,th{
+            border:solid 1px black;
+        }
+        tr{
+            text-align:center;
+            
+        }
+    </style>
+ </head>
+ <body>
+    <table>
+        <!-- starts table head -->
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</td></th>
+                <th>Result</th>
+                <th colspan="2" >Telephone</th>
+            </tr>
+        </thead>
+        <!-- Ends table head -->
+
+        <!-- start table body -->
+        <tbody>
+            <tr>
+                <td>211</td>
+                <td>Emam</td>
+                <td>Bokhari</td>
+                <td>4.00</td>
+                <td colspan="2" >012</td>
+            </tr>
+            <tr>
+                <td>212</td>
+                <td>Moshfiqur</td>
+                <td>Rahman</td>
+                <td>3.22</td>
+                <td>3.22</td>
+                <td>3.22</td>
+            </tr>
+            <tr>
+                <td>221</td>
+                <td>Emam</td>
+                <td>Bokhari</td>
+                <td>4.00</td>
+                <td>4.00</td>
+                <td>4.00</td>
+            </tr>
+            <tr>
+                <td>232</td>
+                <td>Moshfiqur</td>
+                <td>Rahman</td>
+                <td  colspan="3" >3.22</td>
+            </tr>
+            <tr>
+                <td rowspan="2" >2111</td>
+                <td>2111</td>
+                <td>2111</td>
+                <td>2111</td>
+                <td>2111</td>
+                <td>2111</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>234</td>
+                <td>562</td>
+                <td colspan="2" >562</td>
+            </tr>
+        </tbody>
+        <!-- Ends table body -->
+    </table>
+ </body>
+ </html>
